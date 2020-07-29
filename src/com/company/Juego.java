@@ -1,6 +1,6 @@
 package com.company;
 
-public class Juego {
+public abstract class Juego {
     private int vidas;
     private int vidasIniciales;
     private static int record=0;
@@ -36,6 +36,8 @@ public class Juego {
             System.out.println("Se ha alcanzado el record");
         }
     }
+
+    public abstract void Juega();
 
 
 }
