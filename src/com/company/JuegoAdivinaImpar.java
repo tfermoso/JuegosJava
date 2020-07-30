@@ -14,4 +14,12 @@ public class JuegoAdivinaImpar extends JuegoAdivinaNumero {
             return true;
         }
     }
+    public void MuestraNombre(){
+        System.out.println("Juego Adivina Número Impar");
+    }
+    @Override
+    public void MuestraInfo() {
+        System.out.println("Tienes que adivinar el número antes de quedarte sin vidas, solo números impares, por cada número se indica si es mayor o menor");
+        this.MuestravidasRestantes();
+    }
 }
