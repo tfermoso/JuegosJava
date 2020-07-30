@@ -1,7 +1,8 @@
 package com.company;
 
-import com.company.Interface.Jugable;
+import com.company.interfaces.*;
 import com.company.numeros.JuegoAdivinaImpar;
+import com.company.numeros.JuegoAdivinaNumero;
 import com.company.numeros.JuegoAdivinaPar;
 
 import java.util.Scanner;
